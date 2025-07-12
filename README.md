@@ -1,1 +1,6 @@
-# mahe3
+def greet(text):
+    def inner(name):
+        return f"{text},{name}!!!!!!"
+    return inner 
+hi=greet('hello')
+print(hi('mahe')
